@@ -48,6 +48,7 @@ Maven plugins:
 - `org.apache.maven.plugins:maven-assembly-plugin:2.6`
 - `org.apache.maven.plugins:maven-surefire-plugin:2.19`
 - `org.apache.felix:maven-bundle-plugin:3.3.0`
+- `org.apache.maven.plugins:maven-gpg-plugin:1.6`
 
 Custom repositories:
 

@@ -3,7 +3,7 @@ ddth-parent release notes
 
 Parent POM for other DDTH's projects
 
-v4 - 2015-10-03
+v5 - 2015-10-03
 ---------------
 
 Upgrade OSS parent to v9.
@@ -31,6 +31,7 @@ Maven plugins:
 - `org.apache.maven.plugins:maven-assembly-plugin:2.6`
 - `org.apache.maven.plugins:maven-surefire-plugin:2.19`
 - `org.apache.felix:maven-bundle-plugin:3.3.0`
+- `org.apache.maven.plugins:maven-gpg-plugin:1.6`
 
 
 v2 - 2014-10-09
