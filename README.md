@@ -16,30 +16,38 @@ Third party libraries are distributed under their own license(s).
 
 ## Release-notes ##
 
-Latest release: `version 2`.
+Latest release: `version 3`.
 
 See [RELEASE-NOTES.md](RELEASE-NOTES.md).
 
 
 ## Content ##
+
 Java version: `1.7`
 
 Defined properties:
 
 ```xml
-<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <version.java>1.7</version.java>
-    <version.junit>4.11</version.junit>
-    <version.osgi>4.3.0</version.osgi>
-    <version.spring>3.2.11.RELEASE</version.spring>
-    <version.spring.osgi>1.2.1</version.spring.osgi>
-    <version.guava>16.0.1</version.guava>
-    <version.jackson>2.4.3</version.jackson>
-    <version.slf4j>1.7.7</version.slf4j>
-    <version.log4j>1.2.17</version.log4j>
-</properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version.java>1.7</version.java>
+        <version.junit>4.12</version.junit>
+        <version.osgi>4.3.0</version.osgi>
+        <version.spring>4.2.2.RELEASE</version.spring>
+        <version.spring.osgi>1.2.1</version.spring.osgi>
+        <version.guava>18.0</version.guava>
+        <version.jackson>2.6.3</version.jackson>
+        <version.slf4j>1.7.12</version.slf4j>
+        <version.log4j>1.2.17</version.log4j>
+    </properties>
 ```
+
+Maven plugins:
+
+- `org.apache.maven.plugins:maven-compiler-plugin:3.3`
+- `org.apache.maven.plugins:maven-assembly-plugin:2.6`
+- `org.apache.maven.plugins:maven-surefire-plugin:2.19`
+- `org.apache.felix:maven-bundle-plugin:3.3.0`
 
 Custom repositories:
 
@@ -62,10 +70,3 @@ Custom repositories:
     </repository>
 </repositories>
 ```
-
-Maven plugins:
-
-- `org.apache.maven.plugins:maven-compiler-plugin:3.1`
-- `org.apache.maven.plugins:maven-assembly-plugin:2.4.1`
-- `org.apache.maven.plugins:maven-surefire-plugin:2.17`
-- `org.apache.felix:maven-bundle-plugin:2.5.3`

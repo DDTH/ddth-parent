@@ -3,8 +3,39 @@ ddth-parent release notes
 
 Parent POM for other DDTH's projects
 
+v3 - 2015-10-03
+---------------
+
+Upgrade OSS parent to v9.
+
+Defined properties:
+
+```xml
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version.java>1.7</version.java>
+        <version.junit>4.12</version.junit>
+        <version.osgi>4.3.0</version.osgi>
+        <version.spring>4.2.2.RELEASE</version.spring>
+        <version.spring.osgi>1.2.1</version.spring.osgi>
+        <version.guava>18.0</version.guava>
+        <version.jackson>2.6.3</version.jackson>
+        <version.slf4j>1.7.12</version.slf4j>
+        <version.log4j>1.2.17</version.log4j>
+    </properties>
+```
+
+Maven plugins:
+
+- `org.apache.maven.plugins:maven-compiler-plugin:3.3`
+- `org.apache.maven.plugins:maven-assembly-plugin:2.6`
+- `org.apache.maven.plugins:maven-surefire-plugin:2.19`
+- `org.apache.felix:maven-bundle-plugin:3.3.0`
+
+
 v2 - 2014-10-09
 ---------------
+
 Java version: `1.7`
 
 Defined properties:
@@ -56,4 +87,5 @@ Maven plugins:
 
 v1 - 2014-03-21
 ---------------
+
 First release.
