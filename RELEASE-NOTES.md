@@ -3,7 +3,7 @@ ddth-parent release notes
 
 Parent POM for other DDTH's projects
 
-v3 - 2015-10-03
+v4 - 2015-10-03
 ---------------
 
 Upgrade OSS parent to v9.

@@ -16,7 +16,7 @@ Third party libraries are distributed under their own license(s).
 
 ## Release-notes ##
 
-Latest release: `version 3`.
+Latest release: `version 4`.
 
 See [RELEASE-NOTES.md](RELEASE-NOTES.md).
 
