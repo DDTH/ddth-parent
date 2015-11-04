@@ -16,7 +16,7 @@ Third party libraries are distributed under their own license(s).
 
 ## Release-notes ##
 
-Latest release: `version 4`.
+Latest release: `version 5.1`.
 
 See [RELEASE-NOTES.md](RELEASE-NOTES.md).
 
@@ -47,7 +47,7 @@ Maven plugins:
 - `org.apache.maven.plugins:maven-compiler-plugin:3.3`
 - `org.apache.maven.plugins:maven-assembly-plugin:2.6`
 - `org.apache.maven.plugins:maven-surefire-plugin:2.19`
-- `org.apache.felix:maven-bundle-plugin:3.3.0`
+- `org.apache.felix:maven-bundle-plugin:3.0.0`
 - `org.apache.maven.plugins:maven-gpg-plugin:1.6`
 
 Custom repositories:

@@ -3,6 +3,12 @@ ddth-parent release notes
 
 Parent POM for other DDTH's projects
 
+v5.1 - 2015-10-04
+-----------------
+
+Typo fix: `org.apache.felix:maven-bundle-plugin:3.0.0`
+
+
 v5 - 2015-10-03
 ---------------
 
