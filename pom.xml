@@ -10,7 +10,7 @@
 
 	<groupId>com.github.ddth</groupId>
 	<artifactId>ddth-parent</artifactId>
-	<version>6</version>
+	<version>7-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ddth-parent</name>
