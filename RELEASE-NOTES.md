@@ -3,6 +3,19 @@ ddth-parent release notes
 
 Parent POM for other DDTH's projects
 
+v6 - 2016-07-11
+---------------
+
+- Upgrade to Java 8
+- Minimize `<properties>` section to
+```xml
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version.java>1.8</version.java>
+    </properties>
+```
+
+
 v5.1 - 2015-10-04
 -----------------
 
