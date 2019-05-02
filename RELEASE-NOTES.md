@@ -1,10 +1,31 @@
-ddth-parent release notes
-=========================
+# ddth-parent release notes
 
 Parent POM for other DDTH's projects
 
-v6 - 2016-07-11
----------------
+## v11 - 2019-05-02
+
+- Migrate to Java 11
+- Maven plugins:
+  - `org.apache.maven.plugins:maven-compiler-plugin:3.8.0`
+  - `org.apache.maven.plugins:maven-javadoc-plugin:3.1.0` (with flag `-Xdoclint:none`)
+  - `org.apache.maven.plugins:maven-assembly-plugin:3.1.1`
+  - `org.apache.maven.plugins:maven-surefire-plugin:2.22.1`
+  - `org.apache.felix:maven-bundle-plugin:4.2.0`
+  - `org.apache.maven.plugins:maven-gpg-plugin:1.6`
+- Custom repositories:
+
+```xml
+<repositories>
+	<repository>
+		<id>sonatype-org</id>
+		<name>Sonatype Releases</name>
+		<url>http://oss.sonatype.org/content/repositories/releases/</url>
+	</repository>
+</repositories>
+```
+
+
+## v6 - 2016-07-11
 
 - Upgrade to Java 8
 - Minimize `<properties>` section to
@@ -16,14 +37,12 @@ v6 - 2016-07-11
 ```
 
 
-v5.1 - 2015-10-04
------------------
+## v5.1 - 2015-10-04
 
 Typo fix: `org.apache.felix:maven-bundle-plugin:3.0.0`
 
 
-v5 - 2015-10-03
----------------
+## v5 - 2015-10-03
 
 Upgrade OSS parent to v9.
 
@@ -53,8 +72,7 @@ Maven plugins:
 - `org.apache.maven.plugins:maven-gpg-plugin:1.6`
 
 
-v2 - 2014-10-09
----------------
+## v2 - 2014-10-09
 
 Java version: `1.7`
 
@@ -105,7 +123,6 @@ Maven plugins:
 - `org.apache.felix:maven-bundle-plugin:2.5.3`
 
 
-v1 - 2014-03-21
----------------
+## v1 - 2014-03-21
 
 First release.
