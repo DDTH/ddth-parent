@@ -5,6 +5,7 @@ Parent POM for other DDTH's projects.
 Project home:
 [https://github.com/DDTH/ddth-parent](https://github.com/DDTH/ddth-parent)
 
+_`ddth-parent` migrated to **Java 11** since v11._
 
 ## License
 
@@ -22,7 +23,7 @@ See [RELEASE-NOTES.md](RELEASE-NOTES.md).
 
 ## Content
 
-Java version: `Jdk11`
+Java version: **`Jdk11`**
 
 Defined properties:
 
